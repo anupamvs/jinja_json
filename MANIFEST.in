@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include jinja_json *.css
+recursive-include jinja_json *.csv
+recursive-include jinja_json *.html
+recursive-include jinja_json *.ico
+recursive-include jinja_json *.js
+recursive-include jinja_json *.json
+recursive-include jinja_json *.md
+recursive-include jinja_json *.png
+recursive-include jinja_json *.py
+recursive-include jinja_json *.svg
+recursive-include jinja_json *.txt
+recursive-exclude jinja_json *.pyc
